@@ -1,0 +1,75 @@
+# 二进制数据文件
+*.bin
+*.mat
+*.npz
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv
+
+# IDE 设置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# MATLAB 缓存
+*.asv
+slprj/
+
+# 编译产物
+*.o
+*.a
+*.lib
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 构建目录
+build/
+debug/
+release/
+
+# 日志文件
+*.log
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 输出文件（可选，根据需要调整）
+output/
+results/
+*.png
+*.jpg

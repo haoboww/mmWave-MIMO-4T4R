@@ -1,0 +1,68 @@
+/* Define to prevent recursive inclusion -------------------------------------*/
+#ifndef _HAL_OSPI_H
+#define _HAL_OSPI_H
+#include <stdint.h>
+
+
+
+
+
+extern uint8_t ospi_sendover_flag;
+extern uint8_t ospi_receiveover_flag;
+
+
+
+
+void OSPI_MasterInit(void);
+void OSPI_SlaveInit(void);
+void OSPI_Trans64(uint64_t *srcAddr,uint32_t len);
+void OSPI_Receive64(uint32_t *dstAddr,uint32_t len);
+
+void OSPI_TransDMA64(uint32_t *srcAddr,uint32_t len);
+
+void OSPI_DMA_Trans64_IRQ(uint64_t *srcAddr, uint32_t len);
+void OSPI_DMA_Trans64_IRQ_8kB(uint64_t *srcAddr, uint32_t len);
+
+
+
+
+
+
+
+
+void OSPI_DMA_Trans64_IRQ_16kB(uint64_t *srcAddr, uint32_t len);
+
+
+
+
+
+
+
+
+
+#endif /*_HAL_OSPI_H */
+
+/************************ (C) COPYRIGHT  *****END OF FILE****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
