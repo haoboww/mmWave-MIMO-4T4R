@@ -286,20 +286,6 @@ GUARD_SIZE = 2             # 保护单元格
 - ✓ 无人机目标检测
 - ✓ 室内定位和追踪
 
-## 📖 技术参考
-
-### 相关文档
-
-- `../../../点云协议.pdf` - 点云数据协议说明
-- `../../../雷达参数配置.docx` - 硬件参数配置指南
-- SKY32B750_RC6011C 数据手册 (硬件供应商提供)
-
-### 标准与方法
-
-- **FFT**: 快速傅里叶变换 (Fast Fourier Transform)
-- **CFAR**: 常虚警率检测 (Constant False Alarm Rate)
-- **TDM-MIMO**: 时分复用 MIMO 技术
-- **Steering Vector**: 相位阵列波束合成
 
 ## ⚙️ 系统集成
 
