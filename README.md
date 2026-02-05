@@ -338,46 +338,7 @@ visualizer = PointCloudVisualizer(
 visualizer.run()
 ```
 
-## 🤝 贡献指南
 
-欢迎提交 Issue 和 Pull Request！
 
-主要改进方向：
-- [ ] FPGA 算法优化 (降低延迟)
-- [ ] 多目标追踪算法
-- [ ] 深度学习检测器集成
-- [ ] 实时可视化工具
-- [ ] 跨平台驱动支持
 
-## 📄 许可证
 
-[指定您的许可证类型，如 MIT、Apache 2.0 等]
-
-## 📧 联系方式
-
-- **项目维护**: [您的信息]
-- **技术支持**: [支持渠道]
-
----
-
-## 版本历史
-
-- **v4.0.1** (2026-02-05)
-  - 初始化点云处理系统
-  - 完整硬件驱动代码 (1-SV4.0.1)
-  - 低层算法库 (5-RADAR_V10)
-  - MATLAB 信号处理脚本 (3-matlab)
-  - Python 数据处理管道 (point_cloud_gen.py)
-  - 天线校准参数集成
-  - 3D 交互式可视化工具 (visualize_pointcloud_smpl.py)
-  - 完整项目文档和配置文件
-
----
-
-**更新日期**: 2026-02-05
-**系统版本**: v4.0.1
-**主要变更**: 
-- 新增 3D 可视化脚本 (支持点云+SMPL骨架同步显示)
-- 优化点云生成脚本名称 (point_cloud_gen.py)
-- 添加 requirements.txt 和 LICENSE
-- 补充详细的 README 文档
