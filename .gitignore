@@ -2,6 +2,7 @@
 *.bin
 *.mat
 *.npz
+*.npy
 
 # Python 缓存
 __pycache__/
